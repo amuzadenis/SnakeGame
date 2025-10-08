@@ -64,17 +64,17 @@ scr.bgcolor("DarkGreen")
 filler = turtle.Turtle()
 filler.hideturtle()
 filler.speed(0)
-filler.color("OliveDrab1")       # Fill color
+filler.color("OliveDrab1")
 
-# Fill the large rectangle
+
 filler.penup()
-filler.goto(-430, 370)     # Top-left corner
+filler.goto(-430, 370)
 filler.pendown()
 filler.begin_fill()
-filler.goto(430, 370)      # Top-right
-filler.goto(430, -370)     # Bottom-right
-filler.goto(-430, -370)    # Bottom-left
-filler.goto(-430, 370)     # Back to start
+filler.goto(430, 370)
+filler.goto(430, -370)
+filler.goto(-430, -370)
+filler.goto(-430, 370)
 filler.end_fill()
 
 scr.listen()
